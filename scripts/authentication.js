@@ -39,7 +39,7 @@ var uiConfig = {
         document.getElementById('loader').style.display = 'none';
       }
     },
-    // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
+    // Will use popup for IDP Providers sign-in f low instead of the default, redirect.
     signInFlow: 'popup',
     signInSuccessUrl: "main.html",
     signInOptions: [
@@ -51,6 +51,7 @@ var uiConfig = {
       firebase.auth.EmailAuthProvider.PROVIDER_ID,
       firebase.auth.PhoneAuthProvider.PROVIDER_ID
     ],
+    
     // Terms of service url.
     tosUrl: '<your-tos-url>',
     // Privacy policy url.
